@@ -1,0 +1,254 @@
+* {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      140deg,
+      rgb(35, 128, 151) 0%,
+      rgb(56, 185, 185) 0%,
+      rgb(210, 255, 253) 100%
+    );
+  
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  p {
+    line-height: 30px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  a:hover {
+    color: rgb(85, 207, 238);
+    cursor: pointer;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: white;
+    line-height: 200px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  
+  h3 {
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .main-block {
+    width: 1024px;
+    background-color: rgba(0, 0, 0, 0.498);
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  
+  nav {
+    height: 100px;
+    border-radius: 20px;
+    background-color: rgba(64, 64, 64, 0.498);
+    display: flex;
+    align-items: center;
+  }
+  
+  .link {
+    flex: 1;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .large-img {
+    height: 400px;
+    width: 1024px;
+    object-fit: cover;
+  }
+  
+  #about-me,
+  #education,
+  #projects,
+  #contact {
+    padding: 50px;
+  }
+  
+  #education,
+  #contact {
+    background-color: #eeeef7;
+  }
+  
+  .informations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  .profile-image {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 80px;
+    border: solid #d3d3d3 5px;
+    box-shadow: 5px 7px rgba(255, 255, 255, 0.322);
+  }
+  
+  .informations-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .name {
+    font-size: 38px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  
+  .city {
+    font-size: 30px;
+    font-style: italic;
+    color: #ffffff;
+  }
+  
+  .about-text {
+    text-align: justify;
+    color: #ffffff;
+  }
+  
+  .education-text,
+  .education-text {
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+  
+  #education h2 {
+    color: #000000;
+  }
+  
+  .technologies-logos {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .technologies-logos img {
+    height: 100px;
+  }
+  
+  .education-text span {
+    font-weight: bold;
+  }
+  
+  .project {
+    display: flex;
+    margin-bottom: 180px;
+  }
+  
+  .projects-text {
+    text-align: center;
+    color: white;
+    margin-bottom: 120px;
+  }
+  
+  .project img {
+    width: 500px;
+    margin-right: 60px;
+  }
+  
+  .project-description {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  li {
+    list-style-type: disc;
+    line-height: 30px;
+  }
+  
+  #contact,
+  #contact h2 {
+    color: #000000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .contact-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .contact-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-line img {
+    height: 30px;
+    margin-right: 20px;
+  }
+  
+  footer {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer p {
+    color: #000000;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #fcc01a;
+  }
+  
+  footer p,
+  footer a {
+    line-height: 40px;
+  }
+  
+  footer a:hover {
+    color: #5df0e8;
+  }
+  
+  .button-scroll {
+    opacity: 0.5;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+  }
+  
